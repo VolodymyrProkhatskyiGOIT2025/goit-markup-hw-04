@@ -1,0 +1,330 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.class-header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.class-studio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.header-nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-address {
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+.contacts .link {
+  display: block;
+  padding: 24px 0;
+  color: #434455;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #404bbf;
+}
+.header-nav-item .link {
+  color: #2e2f42;
+}
+.header-nav-item .link:hover,
+.header-nav-item .link:focus {
+  color: #404bbf;
+}
+.first-section {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.first-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.main-header {
+  margin-bottom: 48px;
+  max-width: 496px;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+}
+.first-section .button:hover,
+.first-section .button:focus {
+  background-color: #404bbf;
+}
+.header-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.paragraf-sect-two {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-our-team {
+  background-color: #f4f4fd;
+}
+.main-header-two {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.header-section-our-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+.paragraf-section-our-team {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.color-fon {
+  background-color: #ffffff;
+}
+.header-our-portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.header-four-class {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.paragraf-four-class {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-class-studio {
+  color: #f4f4fd;
+}
+.footer-paragraf {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------Homework3 ----------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* --------------common style------------*/
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* -----------------header style------------------- */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+.header-nav-item {
+  display: flex;
+  align-items: center;
+}
+.address-nav-item {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+.header-nav-item {
+  gap: 40px;
+}
+.nav-link {
+  padding: 24px 0;
+  display: block;
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+/* ----------------- section about style------------------- */
+.about {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+.header-three {
+  margin-bottom: 8px;
+}
+.about-list {
+  display: flex;
+  gap: 24px;
+}
+.about-item {
+  width: calc((100% - 72px) / 4);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* ----------------- section about style------------------- */
+/* ----------------- section-our-team ------------------- */
+.section-our-team {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+.main-header-two {
+  margin-bottom: 72px;
+}
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
+.header-section-our-team {
+  margin-bottom: 8px;
+  text-align: center;
+}
+.paragraf-section-our-team {
+  text-align: center;
+}
+.container-section-our-team {
+  padding: 32px 0;
+}
+/* ----------------- section-our-team ------------------- */
+
+/* ----------------- section-our-portfolio ------------------- */
+.section-our-portfolio {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+.header-our-portfolio {
+  margin-bottom: 72px;
+}
+.our-team-item {
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+.our-portfolio-list {
+  flex-wrap: wrap;
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.our-portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+.header-four-class {
+  margin-bottom: 8px;
+}
+.container-our-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+/* ----------------- section-our-portfolio ------------------- */
+
+/* -----------------footer style------------------- */
+.footer-container {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.footer-paragraf {
+  max-width: 264px;
+  margin: 0;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+/* -----------------footer style------------------- */
