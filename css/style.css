@@ -262,6 +262,10 @@ img {
   gap: 40px;
 }
 /* ----------------- section about style------------------- */
+.about-icon {
+  width: 64 px;
+  height: 64px;
+}
 .container-svg {
   display: flex;
   align-items: center;
