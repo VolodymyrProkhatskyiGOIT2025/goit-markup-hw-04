@@ -241,7 +241,7 @@ img {
   position: relative;
   color: #404bbf;
 }
-.link.current::before {
+.link.current::after {
   content: '';
   position: absolute;
   left: 0;
