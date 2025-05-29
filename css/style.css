@@ -262,6 +262,16 @@ img {
   gap: 40px;
 }
 /* ----------------- section about style------------------- */
+.container-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
 .about {
   padding-bottom: 120px;
   padding-top: 120px;
